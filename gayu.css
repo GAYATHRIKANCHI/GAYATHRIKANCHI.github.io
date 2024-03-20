@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-bg {
+     background: #f2f2f2;
+     padding: 20px 10px;
+  }
+  
+  .column p {
+      color: #777;
+  }
+  
+  .footer-bottom p {
+      color: #777;
+      text-align: center;
+      margin-bottom: 0;
+  }
+  
+  ul.ps {
+      display: inline-flex;
+  }
+  
+  ul.ps li {
+      display: block;
+      padding: 10px 30px;
+  }
+  
+  i.fa {
+      color: #449658;
+      font-size: 35px;
+      margin-bottom: 0;
+  }
+  
+  .footer-bottom { 
+     padding: 30px 0;
+  }
+  
+  .copyright_wrap.copyright_style_text.scheme_original {
+      display: none;
+  }
+  
+  @media (max-width: 479px) {
+      .win-pa { display: none; }
+      .mobile-pa { display: block !important; }
+      .column { float: initial; width: 100%; text-align: center; }
+      ul.ps li {padding: 10px 20px;}
+      ul.ps {padding-left: 0;}
+      .footer-bg {padding: 25px 10px 0;}
+  }
+  
+  .mobile-pa { display: none; }
+
+  .footer{ background-color:rgb(230, 226, 226);
+    padding: 50px;}
+    @media(screen){ 
+    body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover{ background:#c2b698 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#c2b698 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body .booked-calendarSwitcher.calendar select,body #booked-profile-page .booked-tabs{ background:#bcdf00 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#bcdf00 !important; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ background:#c2b698; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#c2b698; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,.booked-appt-list .booked-public-appointment-title{ color:#c2b698; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }
+    }
+ .theleaf-custom-style-inline-css
+    #page_preloader{background-color:#ffffff}.preloader_wrap>div{background-color:#C5C6C6} .sidebar_outer_logo .logo_main,.top_panel_wrap .logo_main,.top_panel_wrap .logo_fixed{height:127px} .contacts_wrap .logo img{height:30px}
+    @media (max-width: 479px) {
+        .scheme_original .sc_button.sc_button_style_filled {width: 35% !important;}
+        .slider_wrap .rev_slider_wrapper { height: 500px !important; }
+        #rev_slider_1_1 { height: 500px !important; }
+    
+    }
+    
+    @media (max-width: 959px) and (min-width: 768px) {
+        .scheme_original .sc_button.sc_button_style_filled {width: 20% !important;}
+         .vc_custom_1480555300269 { margin-left: 42px !important; }
+    }
+    
+    /*menu hover*/
+    .scheme_original .header_mobile .panel_top, .scheme_original .header_mobile .side_wrap { background-color:green; }
+    .scheme_original .header_mobile .menu_main_nav > li > a:hover {background-color: #68696b; color: #fff;}
+    
+    @media (max-width: 600px) and (min-width: 960px) {
+        .vc_custom_1480555300269 { margin-left: 42px !important; }
+    }
+    
+    @media (max-width: 767px) and (orientation : landscape) { 
+       .vc_single_image-img {
+            margin: 0 115px;
+        }
+      
+        h3.text_block {
+            margin-left: 145px !important;
+        }
+    }
+    
+    .tp-bullets {
+        display: none;}
